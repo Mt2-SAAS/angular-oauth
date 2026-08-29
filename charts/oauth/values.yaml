@@ -63,7 +63,7 @@ httpRoute:
   # Which Gateways this Route is attached to.
   parentRefs:
   - name: gateway
-    sectionName: oauth-luisito-dev-secret
+    sectionName: https-oauth-luisito-dev
     namespace: operations
   # Hostnames matching HTTP header.
   hostnames:
