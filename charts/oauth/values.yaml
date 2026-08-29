@@ -46,7 +46,7 @@ service:
   port: 80
 
 ingress:
-  enabled: true
+  enabled: false
   subdomain: oauth
   annotations:
     kubernetes.io/ingress.class: nginx
